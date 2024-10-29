@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+#father {
+  background-image: linear-gradient(#111, #222);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.meain {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  width: 80%;
+  height: 80%;
+}
+nav {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+nav #logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: aliceblue;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 6px;
+}
+nav ul li a:hover {
+  color: rgb(240, 1, 1);
+  transition: 0.1s;
+}
+.conant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+.conant .text {
+  color: aliceblue;
+  width: 40%;
+}
+.conant .text h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.conant .text p {
+  font-size: 15px;
+  line-height: 25px;
+  margin: 10px o;
+  letter-spacing: 1px;
+}
+.conant .img1 {
+  width: 40%;
+}
+@media(max-width:950px) and (max-width:1150px){
+  .conant .img1 img{
+    width: 330px;
+  }
+}
+@media(max-width:950px){
+  .conant {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .conant .img1, .conant p{width: 80%;}
+}

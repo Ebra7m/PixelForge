@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.Background-box {
+  width: 100%;
+  height: 55%;
+  
+}
+
+.textRegion {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 30%;
+  min-height: 60%;
+  background: #1A1A1AD4 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textRegion h1 {
+  text-align: center;
+  font: normal normal 900 36px/53px Heebo;
+  color: #FFFFFF;
+}
+
+.textRegion p {
+  width: 75%;
+  margin-top: 21px;
+  font: normal normal normal 20px/29px Heebo;
+  color: #F9F9F9;
+}
+
+.textRegion form {
+  width: 75%;
+  margin-top: 44px;
+}
+
+.textRegion form .let {
+  width: 100%;
+  margin-bottom: 17px;
+}
+
+.textRegion form .let label {
+  display: block;
+  font: normal normal bold 16px/24px Heebo;
+  color: #FFFFFF;
+}
+
+.textRegion form .let input {
+  width: 100%;
+  height: 50px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #D31C75;
+}
+
+.textRegion form button {
+  width: 40%;
+  height: 50px;
+  margin: 17px 0;
+  border: none;
+  background: #D31C75 0% 0% no-repeat padding-box;
+  font: normal normal bold 22px/30px Heebo;
+  letter-spacing: 0.33px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .upperBackground {
+      height: 30%;
+  }
+
+  .textRegion {
+      left: 10%;
+      width: 80%;
+      height: 67%;
+  }
+
+  .textRegion h1 {
+      width: 50%;
+      font: normal normal 900 25px/30px Heebo;
+  }
+
+  .textRegion p {
+      margin-top: 12px;
+      font: normal normal normal 15px/22px Heebo;
+  }
+
+  .textRegion form {
+      margin-top: 22px;
+  }
+
+  .textRegion form .let label {
+      font: normal normal bold 14px/21px Heebo;
+      margin-bottom: 5px;
+  }
+
+  .textRegion form .let input {
+      height: 28px;
+      font: normal normal bold 14px/21px Heebo;
+  }
+
+  .textRegion form .let button {
+      margin-bottom: 25px;
+  }
+
+  .textRegion form button {
+      width: 33%;
+      height: 33px;
+      margin: 0;
+  }
+}

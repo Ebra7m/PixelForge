@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Think Outside the Box</title>
+    <link rel="stylesheet" href="think outside.css" />
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+      async
+      defer
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/625de4b193.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Top Header Section -->
+    <header>
+      <div class="header-container">
+        <img src="box.png" alt="Logo" class="box" />
+        <h1>Think Outside the Box</h1>
+        <p>A brief description of the website's purpose goes here.</p>
+      </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services">
+      <div class="service">
+        <div class="box-icone"><i class="fa-solid fa-location-dot"></i></div>
+        <h2>Service One</h2>
+        <p>Short description for the first service.</p>
+      </div>
+      <div class="service">
+        <div class="box-icone"><i class="fa-solid fa-id-card"></i></div>
+        <h2>Service Two</h2>
+        <p>Short description for the second service.</p>
+      </div>
+      <div class="service">
+        <div class="box-icone">
+          <i class="fa-thin fa-wand-magic-sparkles"></i>
+        </div>
+        <h2>Service Three</h2>
+        <p>Short description for the third service.</p>
+      </div>
+      <div class="service">
+        <div class="box-icone"><i class="fa-solid fa-briefcase"></i></div>
+        <h2>Service Four</h2>
+        <p>Short description for the fourth service.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <div class="map-container">
+        <!-- Paste the Google Maps embed code here -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d430335.0024739999!2d34.9976888!3d32.5797319!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d09f597998047%3A0x779edf1cadfae90!2sFureidis!5e0!3m2!1sen!2sil!4v1729948820190!5m2!1sen!2sil"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- Footer with Social Links -->
+    <footer>
+      <div class="social-media">
+        <a href="#">WhatsApp</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </footer>
+  </body>
+</html>
